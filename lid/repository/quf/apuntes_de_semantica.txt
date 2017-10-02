@@ -1,0 +1,1633 @@
+ATUN RIMANANCHIKTA
+RIQSISHUN
+
+APUNTES SOBRE LA SEMÁNTICA
+INKAWASI – LAMBAYEQUE
+PERÚ
+José Luciano Vilcabana Sánchez.
+1
+
+Asesor: Dr. Wes Collins
+Ilustraciones: Cathy Marlett
+2
+
+AGRADECIMIENTO
+Agradezco a mis queridos maestros y a la
+Señora Cathy Marlett, quienes desinteresadamente
+me apoyaron para hacer este trabajo,
+la cual servirá para mi querido pueblo
+de Inkawasi y a toda la Región de
+Lambayeque.
+
+También agradezco a todos los capacitadores
+de Educación Bilingüe Intercultural 2006 de la
+zona de Inkawasi y Kañaris, por permitirme asistir
+a este curso de Lingüística que se llevó acabo
+en la ciudad de Lima.
+
+Agradezco a toda mi familia por apoyarme
+en todo momento que estuve estudiando.
+
+Publicación preliminar
+300
+2007
+Quechua de Lambayeque
+
+3
+
+4
+
+RIKACHISHUNI
+Kaytaqami rurashakani tukuy yaĉhakunaqkunapaq,
+yaĉhachikuqkunapaq ima, qamkuna riqsiyllapa imanumi
+rimananchikpiqa ruranchik kay shutikunata ima, riqchaq imanu
+uklapaq shutikuna kan; chaqa kaypiqa rimachiyani uk
+wasipa,raĉhpanchikpa, muntikunapa, cuerponchikpa,
+mikunanchikkunapa ima, chiqayninkunapa shutinpaq, riqchaqmi kan,
+imamantami kawsan ima niyani kaypiqa. Qamkunami riqsiyllapa,
+rikachikuyllapa tukuy imanchikkunata; manami tukuynintachu
+kaypiqa rurashkani; kay rurashaypa rurinpipis kanraqmi
+riqchaqninkunaqa, kayqami shutin merónimo, campos asociativos,
+hipónimo, ima niyan.
+Kaytaqami rimananchikpaq yarpurmi rurashakani ama
+chinqananpaq, ama qunqanapaq, shallqa rimanchikqami kusa nasquy,
+maydiyapis yarpushunllapa, qamkuna musukuna amami qunqayta
+yarpuyllapachu rimanachikta, tukuy rimaykuna yupaymi
+nuqanchikpapis, maypipis riqsimayanchikllapa, allin runakuna nirmi,
+kusa nasquy rimananmapis ima nirmi. Chayrayku nishunillapa
+rimanchiktaqa naypaqman apayta yarpushunllapa.
+Manami nuqaqa kusa yaĉhaqchu kani chayraqmi yaĉhakuyani,
+chayrayku nishunillapa pullana yaĉhakushunllapa, kay rimananchikta
+naypaqman apanallapapaq AMA CHINQACHIYTA
+YARPUSHUNLLAPACHU. Chayrayku nishunillapa pullala
+kashunllapa, chaynumi imatapis naypaqmanqa apanchik.
+Payqi nishaykillapa tukuy yanapamashaykillapapaq, pullanami
+yaĉhakushunllapa.
+
+5
+
+INTRODUCCIÓN
+La provincia de Ferreñafe se encuentra ubicada en la parte
+noreste de la Provincia de Chiclayo, Región Lambayeque. Aquí se
+encuentra los Distritos andinos de la provincia de Ferreñafe que se
+llaman Inkawasi y Kañaris que geográficamente están en la parte
+oeste de la cordillera de los Andes Peruanos, con una altitud desde los
+800 metros hasta unos 4000 metros sobre el nivel del mar. En esta
+Región se habla la lengua quechua de la variante Q II A o quechua de
+Ferreñafe según la clasificación de los lingüistas Gary Parker (1963),
+Alfredo Torero (1964, 1974, 1983), y Cerron Palomino (1987); a
+estos podemos agregar el trabajo de Gerald Taylor (1999).
+Estos distritos andinos tienen una población de un estimado de
+26,000 habitantes y de ellos un 85% son quechuahablantes.
+Nosotros hablamos un idioma que no ha sido apreciado por
+muchos, ni por los que han venido a conquistar, y
+desafortunadamente, muchas veces ni por nosotros mismos quienes
+lo hablamos día tras día. Pero éste se está cambiando. Hoy día hay
+mucho interés en recoger y revalorizar lo que es nuestro, tanto de la
+realidad cultural que vivimos como la realidad lingüística que
+hablamos. Además nos parece que hoy hay un espacio socio-político
+en que se reconoce el derecho de los grupos étnicos de seguir una vida
+cultural y lingüística tal y como ellos quieren.
+Así que es muy necesario apreciar lo nuestro porque si nosotros
+no tenemos interés en valorizar a nuestro idioma y cultura, ¿quién lo
+va a hacer? Es por eso que en estas páginas, quiero aportar mi granito
+de arena en pro de lo bello de nuestro idioma presentando este
+pequeño trabajo semántico sobre una diversidad de palabras que
+utilizamos entre nuestros pueblos. Uno quizás podría preguntar,
+"¿Qué tiene que ver un folleto sobre la semántica con la revitalización
+cultural?" Es muy buena pregunta. Es que según expertos como
+Fishman (1991) un idioma no puede prosperar hoy día si no está
+escrito. La escritura implica que haya alfabetizados que pueden
+aprovechar lo que está escrito. Y no puede haber lectores si no hay
+6
+
+qué leer. Por eso, para nosotros que queremos que nuestro idioma
+prospere, hay que desarrollar materiales variados de tipo didáctico,
+técnico, artístico, académico, religioso y hasta para entretener tanto
+para los que son neolectores como para los que saben leer como que si
+fuera hablando. La lectura obviamente se mantiene por leer. Por eso
+se presenta hoy un folleto que indica algo sobre las relaciones entre
+unas palabras que usamos en nuestra vida diaria. Así que les invito
+no solamente a leer el trabajo sino también a comentar y hasta
+colaborar con la gran tarea de producir una literatura variada y muy
+propia.
+Para el bienestar de la población en general y para los educandos
+es importante conocer lo nuestro y así poder identificarnos
+orgullosamente como quechuahablantes y saber el ¿por qué? y el
+¿para qué? de estar en este mundo y no dejar que nuestra identidad
+sea pisoteada ni definida por extraños.
+Diríamos a los que poco conocen de lo nuestro, que el quechua
+es una cultura de gran importancia, pues es el grupo étnico más
+grande de todas las Américas y somos los descendientes en carne y
+hueso (y lengua) de los Incas. Tenemos valores culturales milenarios
+sobre la importancia de nuestras familias, el valor del trabajo duro y el
+respeto para lo ajeno. Estos valores son reflejados en nuestra lengua,
+ya que es nuestra herramienta para poder comunicarnos entre sí de lo
+importante del mundo propio. También la lengua representa la
+externalización de una forma de ser muy apropiada y muy humana.
+Es por eso que debemos luchar para poder mantener y hasta
+revitalizar lo nuestro, ya que a pesar de tantas dificultades y
+opresiones aún sigue viva nuestra lengua y nuestra gente. Muchas
+veces en las épocas pasadas de la humanidad y hasta hoy los intereses,
+planes e ideologías de los poderes políticos, educativos, religiosos,
+económicos, sociales y las fuerzas globalizadoras han ignorado las
+etnias minoritarias, o tal vez nos han considerado como el proverbial
+clavo subido que hay que bajar. Pero aún así se ha mantenido, y se
+mantendrá dependiendo de la conciencia que tomemos nosotros.
+
+7
+
+Un idioma es una forma en cómo concebir al mundo. El alcance
+de sus palabras y sus conceptos han de ser un tesoro lingüístico y
+cultural que puede ser apreciado o también puede ser ignorado. Pero
+por ignorar el tesoro podemos perder una riqueza que jamás
+pensamos que existía. En esta forma un idioma es algo como una
+especia de plantita en peligro de extinción. Puede ser que su único
+ambiente es la corcha de una clase de árbol que crece en las valles
+altas del Ucayali. Puede ser también que este especie tenga dentro de
+su estructura química la curación de enfermedades múltiples de la
+humanidad, pero por no prestar atención y por no sentir una
+responsabilidad por esas especies tan “insignificativas”, se deja que
+esos árboles majestuosos sean talados por su madera sin darse cuenta
+que la especie que habita su corcha se echa a perder en consecuencia.
+Así que no dejemos que el potencial inmenso tanto de especies
+en peligro como de nuestros idiomas pase en silencio ante el paso
+firme de un supuesto progreso. Por eso en el presente trabajo quiero
+exponer unas relaciones semánticas que existen entre palabras en
+nuestro idioma para proveer un vistazo pequeño a la riqueza
+lingüística que hablamos. Con este fin presentaré unas categorías
+semánticas como: los campos asociativos, las palabras
+onomatopéyicas y casos de sinonimia, antonimia, meronimia,
+hiponimia, homonimia, polisemia, y unas familias léxicas y
+gramaticales. Estas categorías y relaciones nos ayudarán considerar la
+paradoja que semánticamente una palabra depende de su significado
+tanto por lo que es tanto como por lo que no es.
+Para ilustrar este fenómeno uno puede buscar la palabra gallina
+en El Pequeño Larousse donde dice: “Hembra del gallo que se
+distingue del macho por ser de menor tamaño, tener la cresta más
+corta y carecer de espolones…" Con esta definición, si uno no sabe
+qué es un gallo será imposible saber qué quiere decir la palabra
+gallina. En esta forma podemos ver que una palabra tiene significado
+por las características propias de su denotación pero también por las
+relaciones que mantiene con otras palabras relacionadas. Es
+semejante a una red cuya fuerza viene no solamente de los nudos
+individuales sino también por las relaciones que cada nudo mantiene
+8
+
+con los demás. En la misma manera una palabra tiene significado no
+sólo por sí mismo, sino también en relación con las otras palabras con
+que relaciona.
+En esta pequeña obra, quiero celebrar algo de la riqueza de
+nuestra lengua. Espero que este trabajito sirva para que nuestros
+niños conozcan y aprendan a utilizar la escritura y la lectura en los
+diferentes contextos como para aprender, para compartir
+conocimientos, para entretenerse y para orgullecerse en y a través de
+nuestra cultura y la lengua que tanto valorizamos. De igual manera
+llamo a las personas no alfabetizadas, para que se alfabeticen.
+También para las personas que no hablen el quechua pero que
+conozcan algo sobre las relaciones semánticas que existen en las
+lenguas del mundo, que lean y que comparen lo que se aprende del
+quechua con lo que sabe del español o del inglés.
+También para los que hablen dialectos cercanos como las de
+Salas y Penachí, Sangana – Miracosta , Pomahuaca – Jaén; que son
+similares a lo que se habla en las zonas de Inkawasi y Kañaris, para
+que tomen conciencia sobre lo que está escrita acá y que se de cuenta
+de la importancia de nuestra lengua con todas sus variaciones y
+matices de significado.
+Con la bendición de Dios, el presente trabajo ojalá les sea de
+gran utilidad para todos y que les apoye en algunas dudas mientras
+esclarece la terminología aquí presentada con el fin de que nuestro
+idioma se levante más y más.
+
+LA LINGUISTICA:
+La lingüística es la ciencia que estudia la descripción y
+explicación de los hechos del lenguaje en sus distintas áreas
+relacionadas: la fonología, la gramática y la semántica.
+La lingüística como ciencia surgió temprano en el siglo XX con
+la distinción que estableció F.de Saussure entre los conceptos de
+9
+
+lenguaje como una característica de todo ser humano y lengua como
+una forma específica en que el lenguaje se manifieste de grupo a
+grupo.
+Sin algo de conocimiento sobre la lingüística no se podría
+estudiar a profundidad las diferentes lenguas existentes en todo el
+mundo; tampoco se entendiera qué es lengua, lenguaje y sus
+manifestaciones y comportamientos dentro de la sociedad.
+El lenguaje es una de las herramientas más importantes para la
+comunicación. Además, la habilidad de escribir o documentar lo que
+se habla ha sido un fenómeno humano desde los años mas remotos,
+cuando los humanos inventaron una serie de grafías para poder
+documentar sus ideas y así plasmar los hechos de su historia, para
+luego pasarlos de generación en generación.
+Gracias a la lingüística ahora podemos estudiar más
+abstractamente nuestra lengua y comprender cómo está estructurada y
+qué funciones cumplen dentro de una determinada comunidad.
+
+LA SEMANTICA LEXICA
+La semántica es la parte de la lingüística que estudia el
+significado literal de las palabras, frases y oraciones. En este trabajo
+sólo vamos a considerar los significados y relaciones entre palabras,
+un área de la semántica que se denomina la semántica léxica.
+Podemos considerar que el significado literal de una palabra es su
+significado del diccionario. Usamos la palabra diccionario
+reconociendo que no es el caso que alguien sepa todo el contenido
+que está en el diccionario, pero el significado expuesto en el
+diccionario enfoca el núcleo de sentido de tal palabra que no vaya
+cambiándose de contexto a contexto, o sea cada palabra que se
+presente tiene un significado básico aunque este vaya modificándose
+según el contexto en que se hable y la cultura a que uno pertenezca.
+Es por eso que dice el refrán semántico que una palabra tiene
+significado por lo que es tanto por lo no es. La semántica, casi
+10
+
+siempre va de la mano con la pragmática que tiene que ver con el
+significado en contextos variados. Tratar de la pragmática es un
+estudio más amplio y ajeno del objetivo del presente trabajo; por tal
+razón sólo trataremos aquí de la semántica léxica y algunos
+componentes relacionados con ella.
+
+RELACIONES EXTRALINGÜÍSTICAS
+Se denomina extra-lingüísticas las relaciones que no tienen tanto
+que ver con relaciones de sentido o de estructura gramatical. Más
+bien las relaciones extralingüísticas provienen de relaciones entre
+entidades en el mundo actual y no tanto entre los términos que las
+representan.
+En esta parte del trabajo vamos a ver sólo un par de esas
+relaciones no lingüísticas de las tantas que existen.
+
+PALABRAS ONOMATOPÉYICAS
+Las palabras onomatopeyas constan la imitación fonética de los
+sonidos, las que se representan a través de signos gráficos tratando de
+imitar los distintos sonidos de la naturaleza, de los animales y de
+varios procesos, acciones, etc. Decimos que las palabras
+onomatopeyas no muestran una relación lingüística con sus sonidos
+contrapartes, porque lo que hablan y cantan los animales y los sonidos
+de las procesos y actividades no son netamente lenguaje como lo
+hemos expuesto en estas páginas. Así que las palabras onomatopeyas
+provienen directamente del mundo y una relación entre la lengua
+hablada y el mundo actual.
+De los términos que siguen, primero se ve palabras que tienen
+que ver con procesos o actividades y después palabras que tienen
+origen en los sonidos o cantos de varios animales:
+
+11
+
+Procesos, acontecimientos y actividades:
+Ĉhaq
+Ĉhil
+Qiiĉh
+Lanlan
+Waqqq
+
+sonido del golpe entre palos y piedras
+sonido de choque de dos hierros
+sonido de la puerta, cuando se abre
+sonido del trueno
+sonido del río
+
+Uuuuu sonido del viento
+Pun
+Ĉhalon
+
+sonido de la bala y cuete
+sonido de la campana
+
+Wishsh sonido del agua en chorro
+Palabras que provienen de los cantos o sonidos de los
+animales:
+Weeeek
+Mekekek
+Kikiriki
+Swikswikswik
+Noqnoqnoq
+Chakchakchak
+
+becerro
+oveja
+el gallo
+el cuy
+el cerdo
+la perdiz
+
+Karkarkar el karqash
+12
+
+Ĉhukyakĉhukyak
+Rrrrrrrrrwawaw
+
+el zorzal
+el perro
+
+Liklik la golondrina andina
+
+Tukuuuuuuuu la lechuza
+
+CAMPOS ASOCIATIVOS:
+Un campo asociativo depende del vínculo entre las entidades
+relacionadas con un determinado tema o contexto. Es una agrupación
+hasta accidental entre cosas y actividades relacionadas a algo. Por
+ejemplo, un escritorio de un maestro puede contener varios objetos
+como: mota, tiza, lapiceros, fotos, libros, marcadores, llaves, un
+espejo, papeles variados, una manzana, etc. y puede ser el centro de
+ciertas actividades como de leer, escribir, calificar, hablar, cantar,
+contar, descansar, etc.
+Estas cosas y actividades no tienen una relación lingüística
+estricta, sino una relación de cercanía en el mundo actual del
+escritorio y el trabajo de un maestro. Así que los campos asociativos
+casi son infinitos. Podemos pensar en un campo asociativo sobre lo
+que me sucedió ayer, o acciones relacionadas con los pies, o entidades
+que aparecen en la chacra, etc. Las relaciones pueden incluir también
+merónimos o hipónimos (que vamos a ver adelante) pero los campos
+asociativos van más allá que estas relaciones lingüísticas: Aquí
+presentamos unos ejemplos:
+
+13
+
+•
+
+COMPO ASOCIATIVO DE ENFERMEDADES: riqchaq
+qishaykuna.
+
+Isqiĉhay
+Quskuy
+Rupay
+Qiri
+Uma nana
+Paĉha nana
+Kiru nana
+Waqta nana
+Fyeru
+Saksa
+Aska rikayta
+
+la diarrea
+la tos
+la fiebre
+llagas
+dolor de cabeza
+dolor del estomago
+dolor de dientes
+dolor de espalda
+bronco neumonía
+hinchazón
+enfermedad producido por causa del frío
+después de haber dado luz
+
+YUNKA RIMIDIWKUNA. Medicina de la costa.
+Riqchaq pastillakuna
+
+diferentes pastillas
+
+Postaman rimidyakaq rinchik
+Nos vamos a la posta a curarnos
+
+14
+
+SHALLQA RIMIDIWKUNA.
+
+Medicina de la sierra.
+
+Desconozco la traducción al castellano de algunas plantas
+medicinales, es por eso que aquí no las coloco.
+
+Yunka tuktu
+Pichun qiru
+Ĉhamqas
+Ukaliptu
+Aliso
+Malirba
+Llanten
+Rosa blanca
+Pulbura
+Maray tullpuq
+Chikurya
+
+Lawsa malerba
+Sabuku
+Kulen
+Chiq pichana
+Suqu pichana
+Ayaq mansana
+Qutiqiru (kutiqiru)
+Chicher
+Romero
+Shulaytantaq
+
+Qishaq
+Enfermo
+
+Rimidiw ruraq
+La que hace el remedio
+15
+
+•
+
+AMPO ASOCIATIVO DE LA CASA: wasipa riqchaqnin.
+
+Panku
+Qatanan
+
+Para
+
+El techo
+
+Tarima
+
+Masma
+
+Sanqala
+
+Caída o gotera
+
+Tarima colgante
+
+Pata
+Uqsha
+
+Matitanan
+Andamio para los
+servicios
+
+El ichu
+
+Qishqi
+
+Llantukuna La caída del techo
+
+La penca partida para amarrar
+
+sobre salida, que sirve para
+sombrear
+Turqu Maqey
+Kumba Corana interior del
+techo
+Simintu La base
+
+Numral
+Punku
+Kuchu
+Waqtan
+Bintana
+Ikin
+Naypan
+Anan
+Kwartun
+
+Punuy
+Dormir
+
+Asikuy
+Reírse
+
+Waqay
+Llorar
+
+Mikuy
+
+Puerta
+Esquina interior
+Contorno
+La ventana
+Detrás
+Adelante
+Encima
+El dormitorio
+
+Comer
+
+Maray
+Batan
+
+Mesa
+Tanakuna
+Lo que sirve para sentarse
+
+Parlay
+Conversar
+
+Tumchika
+Así se ve que un campo asociativo es muy general. Contempla las
+partes de la casa pero mucho más. Incluye cosas adentro de la casa y
+16
+
+relacionadas a la casa (¡hasta las personas mismas!) y actividades que
+suceden allí (dormir, comer, hablar, etc.).
+•
+
+CAMPO ASOCIATIVO DE VESTIMENTA: riqchaq
+raĉhpanchik
+
+Femenino.
+Shukshu
+Uso
+
+Umapañu
+
+Wanku
+
+Pañuelo para la cabeza
+
+Bollo de lana
+
+Kunkapañu
+
+Qalla
+
+Pañuelo para el cuello
+
+Rueca
+
+Lliklla
+
+Waĉhku
+
+Pequeña manta de multicolores
+
+Faja en la cintura
+
+Pullu
+
+Anuku
+
+Manta
+
+Falda o pollera
+
+Kamsa
+
+Qustan
+
+Camisa
+
+Enagüe
+
+Makiwallqa
+
+Llanki
+
+Pulsera de chaquiras
+
+Llanque
+
+Kunkawallqa
+
+Kushma
+
+Collar de chaquiras
+
+Ropa típica antigua de la zona
+de las mujeres
+
+Sumru
+Sombrero
+
+Cuerpun warmipa
+Cuerpo de la mujer
+
+17
+
+Kaypiqa willashuyanillapa runapa raĉhpanpaq, qamkunaqaĉhi
+niyankillapa kayqa meronimo yupay, manami, yaqa chay yupaymi,
+manami chaychu, chayrayku nishuyanillapa chaqa kaykunaqa kusala
+riqchaqmi, mana intrakaqqa mana tantyanqachu.
+
+Masculino.
+Gorra
+
+Kukush
+Chullo
+
+Punchu
+Poncho
+
+Shapi
+Poncho grueso y grande
+
+Sinchu
+Correa
+
+Kamsa
+Camisa
+
+Alburqa
+Alforja
+
+Llanki
+Llanque
+
+Taliqa
+Bolso
+
+Sumru
+Runapa cuerpun
+Cuerpo del hombre
+
+Reloj
+Sortija
+Radio
+
+•
+
+CAMPO ASOCIATIVO DE LA MONTAÑA: riqĉhaqkuna
+muntipi.
+
+Chakwa Perdiz
+Karqash
+Ĉhukyak
+Tuku
+Shinqu
+Qinchu
+Pichon
+
+Zorzal
+Lechuza
+Gallinazo
+Picaflor,colibri
+
+Cardenales, corbatitas, etc.
+
+Lliwe
+Ave conocida en el lugar como ave perezosa
+
+Ayakuru
+
+Kuchaka
+Gavilán
+
+Werekenqe
+Güerequeque
+
+Linqan
+
+Cuadrúpedos.
+Añash
+Zorrillo
+
+Waywash
+Comadreja
+Atuq Lobo o zorro
+Yana puma Oso negro
+
+Pululu
+
+Armadillo
+
+Liriĉhupa Hurón
+Ukcha Ratón
+Kashallkuru/ kashapululu
+Isira
+Riyu Río
+Qaqa Cerro
+Quĉha Laguna
+Pukru Hoyada
+
+Qirukuna
+
+Erizo
+
+Árboles
+
+Campo asociativokunaqami rimayan tukuy imakunapa
+riqchaqninpaq ima, chaynu chay cosakunaqa imata ministiyan
+kananpaq, chay imakuna rurinpi kan ima. Kaypiqa nuqa
+willashuyanillapa atun riqchakkunalapaq, kaykunaqami
+ukunata rurikusha chay rurikushankunaqami uk shutiyqun
+merónimo niyan hipónimo niyan. Kayqami mana
+intrakaypaqchu, chayrayku pitilatami rurashakani qamkuna
+yaĉhakunaykillapapaq.
+
+•
+
+CAMPO ASOCIATIVO DE TEJIDO: Awana.
+
+Awakuq
+Kunkallpu
+Kallwa
+Pukti
+Illwa
+Aysana
+Tunpi
+Awprana
+Mini
+Tanka
+Waska
+Qara
+Manta pullu
+Palos para estirar el tejido en cada extremo, palo para ajustar la
+trama, palo que va entre el tejido, palo que va enredado y sirve para
+separar la trama, varilla de hierro con punta que sirve para terminar el
+tejido, palito que se coloca para que no se ajunten el tejido, faja para
+sostener y estirar el tejido, hilo que cruza el tejido, palo para amarrar
+el tejido, soga para amarrar, cuero para sentarse, manta para sentarse.
+•
+
+CAMPO ASOCIATIVO DE PRODUCTOS
+COMESTIBLES: mikunanchikkuna.
+
+Akshu
+Ullku/ulluku
+Uqa
+Lakwash
+Mashwa
+Pacha
+Allpa
+Yaku
+
+papa
+olluco
+oca
+yakon
+mashua
+suelo
+la tierra
+agua
+
+Uryay
+Qutupay
+Parquy
+Puspu
+Sara
+Ataqu
+
+lampear o desyerbar con palana
+aporcar
+regar
+fríjol
+maíz
+quinua
+
+CAMPO ASOCIATIVO DEL PAISAJE ANDINO:
+pachanchik.
+
+Rupay
+Puktay
+Riyu
+Quĉha
+Rumikuna
+Shallqa
+Qaqakuna
+Kurukuna
+Tuktukuna
+Qirukuna
+Uqsha
+Qiwakuna
+Ĉhakra
+Wasikuna
+
+el sol
+la neblina, nube
+el río
+la laguna
+las piedras
+la jalca
+los cerros (pendientes de piedra)
+animales
+las flores
+plantas (árboles y arbustos)
+la paja, el ichu
+los pastos
+la chacra
+las casas
+
+Chukllakuna
+Chikrukuna
+Chakakuna
+Nankuna
+
+las chozas
+corrales para ovejas
+los puentes
+los caminos
+
+RELACIONES LINGÜÍSTICAS
+Estas son correspondencias lingüísticas (fonológicas,
+gramaticales o semánticas) que tienen relación entre sí como
+términos. Van enlazándose uno con el otro, como son: la antonimia,
+meronimia, hiponimia, sinonimia, homonimia y polisemia. Estas
+relaciones incluyen palabras que mantienen una relación lingüística
+entre sí.
+
+ANTONIMIA:
+Antonimia es una relación entre palabras contrarias u opuestas.
+El concepto de antonimia contempla varias maneras en que las
+palabras pueden ser opositoras, aún en este trabajo sólo mencionaré
+algunos de ellas, las mas conocidas y fáciles de diferenciar.
+
+Warmi
+Ullqu
+
+mujer
+hombre
+
+Kushikuq
+Kwasha
+
+alegre
+triste
+
+Unaq
+Ura
+
+arriba
+abajo
+
+Yuraq
+Yana
+
+blanco
+negro
+
+Quñuq
+Qasaq
+
+caliente
+frío
+
+Rin
+
+se va
+
+Shamun
+
+viene
+
+Tuta
+
+noche
+
+Achkiyasha
+
+Ĉhawa
+
+Ĉhasha
+
+crudo
+cosido
+
+día
+
+HIPONIMIA:
+Hiponimia es la relación de miembros a una clase. Por ejemplo,
+un diccionario es un tipo de libro. Podemos decir que, en este
+ejemplo, la palabra libro es un término superordinado porque es más
+general que los varios tipos de libro como: diccionarios, libros de
+rectas, novelas, enciclopedias, guías, entre muchos más. Las palabras
+que corresponden a los diferentes tipos de libro son subordinados al
+término libro porque pertenecen a grupos más pequeños y más
+específicos que el término general libro que contempla todos los
+diferentes tipos de libro y no sólo una clase. En esta relación la
+palabra libro se denomina un hiperónimo o un término superordinado
+
+por ser más grandes o más extensas en cuanto a su alcance mientras
+las palabras inferiores, más específicas y subordinadas son hipónimos.
+
+QIRUKUNA: Plantas.
+En esta parte nos referimos a muchas de las plantas que existen
+en nuestra zona y se clasifican en diferentes tamaños, las cuales son
+plantas medianas o arbustos, plantas pequeñas o hierbas.
+
+ATUN QIRU:
+
+árbol
+
+Yuraqqiru
+Puspuqiru
+Kinwa
+Aliso
+Ukalipto
+Lanchi
+Llulluq
+Chichir
+Wanka
+Pino
+Makmak
+Andanqa
+
+palo blanco
+variedad de árbol
+árbol parecido a chachacoma
+aliso
+eucalipto
+árbol duro
+
+¿?
+laurel de montaña
+
+¿?
+
+TAKSHA QIRU: Arbusto
+Nos referimos a las plantas pequeñas que se encuentran en
+nuestra zona y la mayoría de ellos son medicinales.
+
+Chillka
+Tululuq
+Yerva santa
+Sabuku
+Kulin
+Pichunqiru
+Kutiqiru
+Varilla
+Uĉhpa mullaka
+Sarsa
+LLAMPU QIRU – QIWA: Hierba
+Aquí nos referimos a las plantas más pequeñas aún, que también
+son reconocidas como hierbas.
+
+Ĉhamqas
+Chunpyawra
+Qillawra
+Rabanas
+Malerva
+Uqsha
+Chuluki
+Amursiku
+Uqruru
+
+Hiponimia niyan chayqami rimayan uk atunpa rurinpi
+taksha chaypaq. Imanumi kayqa wakmaqa niyan kaypiqa
+qirukunapaq atunmanta takshakaman; atun shutinqa: qiru,
+taksha shutinqa: riqchaq qirukuna shutiyqun chay.
+
+MERONIMIA:
+Se denomina meronimia a la relación de una parte a un entero.
+Los merónimos también pueden ser considerados entidades
+subordinados igual que los hipónimos pero hay una diferencia. Un
+hipónimo es una representación o manifestación de un hiperónimo.
+Por ejemplo, un gato (hipónimo) es un animal (hiperónimo). Por otro
+lado, un merónimo no es una manifestación de su término
+superordinado, sino sólo una parte de ello. Por ejemplo la palabra
+brazo es merónimo de cuerpo porque es una parte del cuerpo; pero no
+es un cuerpo, sino sólo una parte. El quechua tiene muchos ejemplos
+de esta relación semántica. Aquí mencionamos unos cuantos:
+
+UYSHAPA CHIQAYNINKUNA: partes de la oveja.
+Kachu
+Millwa
+Ĉhaki
+Rinri
+Nawi
+Sillu
+Ĉhupa
+Uma
+Sinka
+Qunquri
+Wichu
+Ĉhaqli
+Rikra
+Ĉhanka
+Paĉha
+Urku
+Kunka
+Qasqu
+
+cuerno
+lana
+pata
+oveja
+ojo
+uña
+cola
+cabeza
+nariz
+rodilla
+tobillo
+mandíbula
+brazo
+pierna
+panza
+frente
+cuello
+pecho
+
+WASIPA CHIQAYNINKUNA: partes de la casa.
+Punku
+Pata
+Qatan
+Kuchu
+Masma
+Simintu
+Ventana
+Panku
+Waqtan
+
+puerta
+pared
+techo
+esquina
+caída de la paja o gotera
+base
+tira de barro en lo extremos del techo
+exteriores
+
+QIRUPA CHIQAYNINKUNA: partes de la planta.
+Rapra
+Tullu
+Tuktu
+Muri
+Ĉhupa
+
+hoja
+tallo
+flor
+fruto
+raíz
+
+PARIQ KURUKUNAPA CHIQAYNINKUNA: Partes de las
+aves.
+
+Uma
+Sinqa
+Nawi
+Kunka
+Buchi
+Qasqu
+Kapa
+wichu
+Ĉhaki
+Ĉhupa
+
+cabeza
+pico o nariz
+ojo
+cuello
+buche
+pecho
+ala
+canillas
+pata
+cola
+
+RURINCHIKPI CHIQAYNINCHIKKUNA: partes del interior
+del cuerpo.
+
+Ñutqu
+Surutu
+Anqu
+Puywa
+Turqushtu, purqushtu
+Suqya ñati, pulmun
+Kunkapa rurin
+Llullu qasqu
+Wawa paĉha
+Maman
+Pukchu
+Ayaq
+Lañu chunchuli
+Raku chunchuli
+Yawar
+Ñati
+
+el cerebro (la médula)
+la columna vertebral
+el tendón/ el nervio
+el corazón
+la tráquea
+el pulmón
+(la garganta, el esófago)
+boca del estómago
+la matriz (mujer)
+la placenta
+la vejiga
+la vesícula
+el intestino delgado
+el intestino grueso
+la sangre
+el hígado
+
+Shunqu
+Tullu
+Shunqu
+Riñun
+Aycha
+Qallu
+
+vientre
+el hueso
+el estómago
+el riñón
+el músculo (carne)
+lengua
+
+Meronimia niyanchik tukuy imakunapa chiqayninkunata,
+kay ikipiqa willashushakanillapa uyshapa, wasipa, qirupa
+chiqayninkunapaq; kaytaqami daslla intrakaypaq, mana
+wakinkuna yupaychu, tukuy kaykunataqami riqsinchikllapana
+kay pachanchikllapapiqa, riqchaqkunapa chiqayninkunami
+kan kaypiqa nuqaqa aykalatami rurashakani.
+Kaykunapa shutinta ama qunqashunchu.
+
+CHIQAYNINCHIKKUNA: partes del cuerpo humano.
+Uma
+Urku
+Nawi
+Sinqa
+Rinri
+Qallqa/qaqlla
+Kunka
+Aqru
+Kiru
+Nawipa shapran
+Shimi
+Ĉhaqli
+Shapra
+Qasqu
+Ñuñu
+Rikra
+Liklachu
+Qukĉhi
+Paĉha
+Maki
+Kustilla
+Raku ĉhanqa
+Ĉhanqa
+Munchu
+Sintura
+Qunquri
+Sillu uña
+Pinkullu
+Shutqupa paĉhan
+Pinqaynin parte intima
+Ĉhanqa kaĉhakanan la ingle
+Siki
+
+Lapsaq
+Unión de la pierna con la barriga
+
+Aqcha
+Matanka
+Waqta
+Surutu
+Shutqu
+Muqu
+Wichu
+Ĉhaki
+Qara
+Ĉhaki pampaq
+planta del pie
+
+Kaypiqa willashunillapa tukuy chiqayninchikkunapaq,
+qamkuna riqninaykillapapaq, ima shutin imanchikkuna nir
+yaĉhanaykillapapaq.
+SINÓNIMO:
+Se dice sinonimia a las palabras que tienen igual o parecido
+significado.
+
+Sacar
+
+- urquy
+- lluqchiy
+
+Bebé
+
+- iti
+- uchkul
+- lushti
+
+Desnudo
+
+- liri
+- wamritu
+
+Mariposa
+
+- pilliku
+- pillpintu
+- tukitu
+
+Se dice que no hay sinonimia perfecta porque puede haber
+contextos en que las palabras no sean íntersustituibles. Por ejemplo,
+en español podemos decir que las palabras aire y viento son
+sinónimos porque podemos articular una oración como la siguiente:
+El aire / viento llevó el techo de mi casa anoche. En este contexto,
+aire y viento son sinónimos porque describen el mismo evento. Pero
+puedo decir que es el aire que respiro, aunque sería raro decir que es
+el viento que respiro. Así que un par de sinónimos no son sinónimos
+en todo contexto.
+
+Sinonimotaqa ninllapa manash allintaqa
+willamanchikchu uklapaqqa, ashwanshi ukunapaq imash
+riman, mana ishkay, kimsa palabrakuna uklapaqqa kanchu,
+chay cada palabrakuna ukpaq riman. Ejemplo urquy ninchik
+uk cosakunata lluqchiy ninchik ukunata, chaynumi kaykunaqa
+mana intrakaypaqchu, chaymi ninchik semanticaqa.
+HOMONIMIA:
+Homonimia es diferente que las otras “-nimias” que hemos visto
+(antonimia, meronimia, hiponimia, sinonimia) porque la relación
+entre homónimos no depende directamente de una correspondencia
+entre significados de los términos bajo cuestión, sino en la falta de
+relación entre significados. Su base de relación no es su significado
+como es en el caso de las demás relaciones que hemos estudiado sino
+por su pronunciación. El término homónimo viene del griego: homo
+‘igual’ y ónoma ‘nombre’, pues denotan palabras que se pronuncian
+iguales porque tienen el mismo “nombre”. Puede ser que las palabras
+se escriben en forma distinta como casar “contraer matrimonio” y
+cazar “buscar animales” u honda “profunda” y onda “ola” o no, como
+el caso de llama “animal”, llama “nombrar” y llama “fuego”.
+Lo que sigue son unos ejemplos de homonimia en quechua.
+
+Kachka encender
+
+Paqay
+
+lava
+
+Kachka la oreja parada
+Kuchu cortar
+Kuchu rincón
+
+Paqay
+Mikuy
+Mikuy
+
+lizo resbaladizo
+come
+comida
+
+Uqllay
+Uqllay
+
+Waqta
+Waqta
+
+afuera
+espalda
+
+regazo
+ovar
+
+POLISEMIA:
+Se habla de una relación de polisemia cuando una sola palabra
+tiene varios significados, pero estos significados están ligados por un
+hilo de semejanza. Por ejemplo, la palabra Ĉhaki significa "pie". En
+quechua tanto como en español, la palabra tiene mucho alcance.
+Entre las palabras que siguen, unas tienen una extensión como el
+español mientras otras se extienden más aún:
+
+Ĉhaki
+
+- pie del hombre
+- pie de montaña
+- pie de la mesa
+- pie de la banca
+- pie de la casa
+- pie del árbol
+- pie de la tarima
+- pie del ojo
+- pie de la oveja o de muchos animales
+- pie del carro
+- pie de la piedra
+- etc.
+
+A pesar de que la palabra Ĉhaki tiene muchos sentidos, todos
+estos sentidos son relacionados por su forma, su función o su
+
+posición en relación del pie humano. Así que, en oposición de
+palabras homonimias, las palabras caracterizadas como polisémicas
+son palabras individuales cada una, y no homónimos. Adelante hay
+más ejemplos.
+
+Rikra
+
+Rupaq
+
+- brazo del ser humano
+- rama del árbol
+- rama del río
+- entronque del camino
+- quemada del rozo
+- agua caliente
+- niño con fiebre
+
+- entrañas del árbol
+Shunqu - entrañas del ser humano
+- entrañas de la tierra
+- corazón de la papa
+
+Uma
+
+Nawi
+
+- cabeza del ser humano
+- la punta del árbol
+- cabeza de animales
+- la parte de adelante de los camiones
+
+- ojo del manantial
+- ojo del ser humano
+- ojo de los animales
+- ojo del carro
+- ojo del muerto
+- ojo del árbol
+
+Yana
+
+- color negro
+- oscuro
+
+Aywa
+
+- almohada
+- cabecera de la cama
+- la parte de arriba del terreno
+
+Shimi
+
+- boca o labio del ser humano
+- boca de la botella
+- boca del saco o costal
+
+FAMILIAS LÉXICAS:
+Una familia léxica es la relación de una palabra o lexema con
+sus afijos. Da un significado diferente cada vez que se agrega a la
+raíz un sufijo, de ellos tenemos algunos ejemplos.
+
+Uma
+Umakuna
+Umayki
+Umasapa
+Umachala
+Umayqun
+Umayrayku
+Umaymanta
+Umaykipaq
+
+cabeza
+las cabezas
+tú cabeza
+cabezón
+sin sombrero
+tiene cabeza
+por mi cabeza
+de mi cabeza
+para tú cabeza
+
+Maki
+Makisapa
+Makiywan
+Makiypaq
+Makiykipaq
+Makiyqun
+Makikuna
+Makiyrayku
+
+mano
+mano larga
+con mi mano
+para mi mano
+para tú mano
+tiene mano
+las manos
+por mi mano
+
+Pishqu
+Pishqula
+Pishqukuna
+Pishqurayku
+Pishqumanta
+Pishkunalla
+Pishquyupay
+Pishquypaq
+
+pollo
+solo pollo
+los pollos
+por culpa del pollo
+del pollo
+solo pollos
+como el pollo
+para mi pollo
+
+Mikuy
+comida/come
+Mikunay
+mi comida
+Mikuyla
+solo comida
+Mikushaq
+voy ha comer
+Mikuqkuna
+los que están comiendo
+Mikunaypaq
+para comer
+Mikushanakani
+ya comí
+Mikunalla
+esta de comida
+Mikunaykillapapaq
+para que coman
+FAMILIA GRAMATICAL:
+La familia gramatical es cuando un afijo se agrega a diferentes
+raíces. Su significado siempre se semeja por incluir el mismo afijo a
+la variedad de palabras. La relación entre las distintas palabras es a
+través del afijo que comparten.
+Segunda persona singular.
+
+Umayki
+Makiyki
+Mikunayki
+Uyshayki
+Pishquyki
+
+tú cabeza
+tú mano
+tú comida
+tú oveja
+tú pollo
+
+Mishiyki
+Nawiyki
+Shimiyki
+Aqchayki
+Akshuyki
+Uqayki
+
+tú gato
+tú ojo
+
+tú labio
+tú pelo
+tú papa
+tú oca
+
+Marcador de plural.
+Kuchikuna
+Sarakuna
+Awanakuna
+Añashkuna
+Pululukuna
+Allqukuna
+Lluychukuna
+Ĉhakikuna
+Ĉhupakuna
+Mishikuna
+Pishqukuna
+Ukchakuna
+Tuktukuna
+Shimikuna
+Qiwakuna
+Qirukuna
+Wasikuna
+
+chanchos
+maíces
+tejidos
+zorrillos
+armadillos
+perros
+venados
+pies
+colas
+gatos
+pollos
+ratones
+flores
+labios
+pastos
+árboles
+casas
+
+Runakuna
+Warmikuna
+Maraykuna
+Mashakuna
+Puquykuna
+Kashakuna
+
+hombres
+mujeres
+batanes
+yernos
+frutos
+espinas
+
+Yuraqkuna
+Yanakuna
+Ñaqsakuna
+
+blancos
+negros
+peines
+
+Primera persona singular.
+Makiy
+Rinriy
+Nawiy
+Shimiy
+Umay
+Rikray
+Ĉhakiy
+Matiy
+Manqay
+Mikunay
+Wasiy
+Ĉhakray
+Yakuy
+Warmiy
+Qiruy
+Llaqtay
+
+mi mano
+mi oreja
+mi ojo
+mi labio
+mi cabeza
+mi brazo
+mi píe
+mi plato
+mi olla
+mi comida
+mi casa
+mi terreno
+mi agua
+mi mujer
+mi palo
+mi pueblo
+
+Hacia (dirección).
+Wasiman
+Llaqtaman
+Uyshaman
+Yunqaman
+Chimpaman
+Yamtaman
+Kuchiman
+Amnalman
+Qiruman
+
+hacia la casa
+hacia el pueblo
+hacia la oveja
+
+hacia la costa
+hacia al otro lado del río
+hacia la leña
+hacia el chancho
+hacia el ganado
+hacia el árbol
+
+Ukniyman
+Yakuman
+Shallqaman
+Ĉhakraman
+
+hacia mi hermano
+hacia el agua
+hacia la jalca
+hacia la chacra
+
+CONCLUSIÓN
+En el presente trabajo se ha presentado unas diferentes formas
+de relaciones lingüísticas, en algunos casos sólo en quechua y en otros
+con su traducción al castellano. Ahora sabemos que nuestra lengua
+tiene igual valor que las demás lenguas más importantes de latino
+América y el mundo, porque se puede decir un sinnúmero de cosas en
+pocas palabras. También se puede identificar las diferentes
+asociaciones que hay en nuestro ámbito.
+El trabajo que he presentado sólo son unos apuntes relacionados
+con la semántica para poder entender que nuestra lengua no sólo se
+habla sino que se escribe en sus diferentes formas y relaciones. Con
+esto quiero decirles que NUESTRA LENGUA es más importante de
+lo que creemos. Pensemos que no hay que esperar que otros hablen
+por nosotros, sino que nosotros debemos mostrar la gran riqueza
+que tenemos.
+
+REFERENCIAS BIBLIOGRÁFICAS
+Azevedo, Miltón M. 1992. Introducción a la lingüística española.
+Upper Saddle River, New Jersey, EE.UU. Prentice Hall.
+Cerron Palomino, Rodolfo. 1987. Lingüística quechua. Cuzco:
+Centro de Estudios Rurales Andinos.
+Clave Diccionario de uso del español actual. Prólogo de Gabriel
+García Márquez.
+Diccionario, El pequeño Larousse ilustrado. 2003.
+Fishman, Joshua A. 1991. Reversing Language shift; theoretical and
+empirical foundations of assistance to threatened languages.
+Clevedon: Multilingual Matters.
+Gili Gaya, Samuel. 1998. Curso superior de sintaxis española.
+Barcelona: Vox.
+Hurford, James R. y Brendan Heaseley. 1997. Curso de semántica.
+Cambridge University Press.
+Justo Gil, Manuel. 1990. Fundamentos del análisis semántico.
+Santiago de Compostela, España. Universide de Santiago de
+Compostela.
+Krauss, Michael. 1992. The world's languages in crisis. Language
+68:4-10.
+Lyons, John. 1997. Semántica léxica. Barcelona: Paidós.
+Parker, Gary. 1963. La clasificación genética de los dialectos
+quechuas. Revista del Museo Nacional 32:241-252. Lima.
+Parker, Gary. 1971. The evolution of Quechua B. Working papers
+in linguistics 3:45-109. Honolulu: University of Hawaii.
+
+Radford, Andrew, Martìn Atkinson, David Britain, Harald Clahsen,
+Andrew Spencer. 2000. Introducción a la lingüística.
+Cambridge University Press.
+Taylor, Gerald. 1999. Método del quechua Ferreñafano para
+hispanohablantes. Ministerio de Educación.
+Torero, Alfredo. 1964. Los dialectos quechua. Anales Científicos de
+la Universidad Agraria. 2: 446-478.
+Torero, Alfredo. 1974. El quechua y la historia social andina. Lima:
+Universidad Ricardo Palma.
+Torero, Alfredo. 1983. La familia lingüística quechua. Pottier,
+Bernard, ed. América latina en sus lenguas indígenas.
+Caracas: Monte Ávila Editores.
+

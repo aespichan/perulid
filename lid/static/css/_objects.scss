@@ -1,0 +1,20 @@
+#langidform {
+  @include sans-serif-font;
+  font-size: 15px;
+}
+
+#results {
+  @include sans-serif-font;
+  font-size: 15px;
+}
+
+.in-sentence {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus {
+    text-decoration: none;
+    font-weight: bold;
+  }
+}

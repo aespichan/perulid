@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "../../Users/alexandra/Documents/tesis-aeslinares/perulid/lid/static/css/custom.css",
+	"sources": [
+		"../../Users/alexandra/Documents/tesis-aeslinares/perulid/lid/static/css/custom.scss",
+		"../../Users/alexandra/Documents/tesis-aeslinares/perulid/lid/static/css/base/_variables.scss",
+		"../../Users/alexandra/Documents/tesis-aeslinares/perulid/lid/static/css/base/_mixins.scss",
+		"../../Users/alexandra/Documents/tesis-aeslinares/perulid/lid/static/css/_objects.scss",
+		"../../Users/alexandra/Documents/tesis-aeslinares/perulid/lid/static/css/_header.scss"
+	],
+	"names": [],
+	"mappings": "AGAA,AAAA,WAAW,CAAC;EDkEV,WAAW,EAAE,2DAA2D;EChExE,SAAS,EAAE,IAAI,GAChB;;AAED,AAAA,QAAQ,CAAC;ED6DP,WAAW,EAAE,2DAA2D;EC3DxE,SAAS,EAAE,IAAI,GAChB;;AAED,AAAA,YAAY,CAAC;EACX,eAAe,EAAE,IAAI,GAQtB;EATD,AAEE,YAFU,AAEV,MAAO,CAAC;IACN,eAAe,EAAE,IAAI,GACtB;EAJH,AAKE,YALU,AAKV,MAAO,CAAC;IACN,eAAe,EAAE,IAAI;IACrB,WAAW,EAAE,IAAI,GAClB;;ACjBH,AAAA,MAAM,AAAA,aAAa,CAAC;EAElB,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,uBAAuB;EACnC,gBAAgB,EAAE,KAAK;EACvB,qBAAqB,EAAE,MAAM;EAC7B,QAAQ,EAAE,QAAQ;EFkDlB,uBAAuB,EAAE,KAAK;EAC9B,oBAAoB,EAAE,KAAK;EAC3B,kBAAkB,EAAE,KAAK;EACzB,eAAe,EAAE,KAAK,GE1CvB;EAjBD,AAQE,MARI,AAAA,aAAa,CAQjB,aAAa;EARf,AASE,MATI,AAAA,aAAa,CASjB,aAAa;EATf,AAUE,MAVI,AAAA,aAAa,CAUjB,aAAa,CAAC;IACZ,OAAO,EAAE,WAAW;IACpB,KAAK,EAAE,KAAK,GAIb;IAHC,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;MAb5C,AAQE,MARI,AAAA,aAAa,CAQjB,aAAa;MARf,AASE,MATI,AAAA,aAAa,CASjB,aAAa;MATf,AAUE,MAVI,AAAA,aAAa,CAUjB,aAAa,CAAC;QAIV,OAAO,EAAE,MAAM,GAElB"
+}

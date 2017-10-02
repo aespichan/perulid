@@ -1,0 +1,38 @@
+#langidform {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px; }
+
+#results {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px; }
+
+.in-sentence {
+  text-decoration: none; }
+  .in-sentence:hover {
+    text-decoration: none; }
+  .in-sentence:focus {
+    text-decoration: none;
+    font-weight: bold; }
+
+header.resultHeader {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: black;
+  background-attachment: scroll;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  header.resultHeader .page-heading,
+  header.resultHeader .post-heading,
+  header.resultHeader .site-heading {
+    padding: 35px 0 20px;
+    color: white; }
+    @media only screen and (min-width: 768px) {
+      header.resultHeader .page-heading,
+      header.resultHeader .post-heading,
+      header.resultHeader .site-heading {
+        padding: 35px 0; } }
+
+/*# sourceMappingURL=../../../../../../../../static/css/custom.css.map */
