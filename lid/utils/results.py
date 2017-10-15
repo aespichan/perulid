@@ -12,29 +12,29 @@ def load_language_dict():
 
 _language_dict = load_language_dict()
 
-def top_percentage(probabilities, proba_order, k):
+def top_percentage(probabilities, k):
     top = []
-    probabilities *= 100
-    probabilities = np.round(probabilities,3)
-    languages = list(Language.objects.order_by('iso_code').all())
-    for j in range(len(proba_order)):
-        sentence_top = []
+
+    for sample in probabilities:
+        sample_top = []
         remaining_proba = 100
         for i in range(k-1):
-            index = proba_order[j][i]
-            language = languages[index]
-            proba = probabilities[j][index]
+            iso = sample[i][0]
+            proba = round(sample[i][1]*100,3)
             remaining_proba -= proba
+            sample_top.append((_language_dict[iso],proba))
+        sample_top.append(("Otros",round(remaining_proba,3)))
+        top.append(sample_top)
 
-            sentence_top.append((language.language_name, proba))
-        sentence_top.append(("Otros", round(remaining_proba,3)))
-        top.append(sentence_top)
     return top
 
 def iso_to_name(iso_list):
     language_list = []
     for iso in iso_list:
-        language_list.append(_language_dict[iso])
+        if iso in _language_dict:
+            language_list.append(_language_dict[iso])
+        else:
+            language_list.append(iso)
 
     return language_list
 

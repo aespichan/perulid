@@ -1,7 +1,7 @@
 from django.shortcuts import render, render_to_response
 from django.conf import settings
 from .utils.classifier import deserialize
-from .utils.clean import split_text
+from .utils.clean import split_text, clean_line
 from .utils.results import top_percentage, iso_to_name
 
 import os.path as path
@@ -17,10 +17,11 @@ def index(request):
 def results(request):
     print(request.POST)
     classifier = deserialize(path.join(settings.CLASSIFIER_DIR,'classifier.pkl'))
-    pred, proba, proba_order = classifier.predict_proba(request.POST['text'])
-    top = top_percentage(proba, proba_order, 5)
+    pred, proba = classifier.predict_proba(request.POST['text'])
+    top = top_percentage(proba, 5)
     prediction = iso_to_name(pred)
-    sentences = split_text(request.POST['text'])
+    text = clean_line(request.POST['text'])
+    sentences = split_text(text)
 
     pred = json.dumps(list(prediction), cls=DjangoJSONEncoder)
     top = json.dumps(list(top), cls=DjangoJSONEncoder)

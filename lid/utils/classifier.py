@@ -10,6 +10,7 @@ class Classifier:
         self.model = model
         self.tf = tf
         self.threshold = threshold
+        self.labels = list(Language.objects.exclude(family_id=-1).order_by('iso_code').values_list('iso_code', flat=True))
 
     def characterize(self,text):
         if type(text) is not str:
@@ -50,23 +51,22 @@ class Classifier:
         test_tf = self.tf.transform(test)
 
         probabilities = self.model.predict_proba(test_tf)
-        proba_order = []
-        predictions = []
-        labels = list(Language.objects.order_by('iso_code').all().values_list('iso_code', flat=True))
+        probas, predictions = [],[]
 
         for i in range(len(test)):
-            proba = probabilities[i]
             ## Arreglo de indices de las probabilidades en orden descendente
-            sorted_proba = proba.argsort()[::-1]
-            max_index = sorted_proba[0]
-            proba_order.append(sorted_proba)
-
-            if proba[max_index] < self.threshold:
+            sorted_index = probabilities[i].argsort()[::-1]
+            sorted_class = [(self.labels[index], probabilities[i][index]) for index in sorted_index]
+            probas.append(sorted_class)
+            
+            max_index = sorted_index[0]
+            
+            if probabilities[i][max_index] < self.threshold:
                 predictions.append(detect(test[i]))
             else:
-                predictions.append(labels[max_index])
+                predictions.append(self.labels[max_index])
 
-        return predictions, probabilities, proba_order
+        return predictions, probas
 
 def serialize(clf, filename):
     output = open(filename, 'wb')
