@@ -7,6 +7,9 @@ from .utils.results import top_percentage, iso_to_name
 import os.path as path
 import json
 from django.core.serializers.json import DjangoJSONEncoder
+from django.http import JsonResponse
+
+from .models import Inverted_Word
 
 # Create your views here.
 
@@ -34,3 +37,27 @@ def results(request):
     }
 
     return render_to_response('lid/results.html', context)
+
+def resources(request):
+    context = {}
+    return render(request, 'lid/resources.html', context)
+
+def search_sentences(request):
+    search_input = request.POST.get('search_input', None)
+    iword_set = Inverted_Word.objects.filter(word = search_input)
+
+    data = []
+    for iword in iword_set:
+        sentence = iword.sentence.sentence
+        language = iword.sentence.file.language.language_name
+        url = iword.sentence.file.source
+        position = iword.position
+
+        data.append({
+            'sentence':sentence, 
+            'language':language, 
+            'url':url,
+            'position':position,
+        })
+
+    return JsonResponse({"data":data})

@@ -18,3 +18,21 @@
     font-weight: bold;
   }
 }
+
+.search-results {
+  margin: 30px 0;
+}
+
+.search-sentence {
+  margin: 0px;
+}
+
+#section_search_results {
+  @include sans-serif-font;
+  font-size: 15px;
+}
+
+button.disabled {
+  background-color: #0085A1 !important;
+  border-color: #0085A1 !important;
+}

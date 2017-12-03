@@ -1,0 +1,30 @@
+{% extends 'lid/base.html' %}
+{% load static %}
+{% load extras %}
+{% block content %}
+
+  <!-- Page Header -->
+  <header class="resultHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 mx-auto">
+          <div class="site-heading">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div id="searcher"></div>
+  </div>
+
+  <hr>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/csrf.js' %}"></script>
+<script src="{% static 'js/searcher.js' %}"></script>
+{% endblock %}

@@ -51,17 +51,29 @@ class Repository_Detail(models.Model):
     tokens = models.IntegerField(default=0)
     files = models.IntegerField(default=0)
 
+    def __str__(self):
+        return self.language
+
 class Repository_Source(models.Model):
     language = models.ForeignKey(Language, on_delete=models.CASCADE)
     file = models.CharField(max_length=200)
     source = models.CharField(max_length=200, null=True)
 
+    def __str__(self):
+        return self.file
+
 class Inverted_Sentence(models.Model):
     sentence = models.TextField()
     file = models.ForeignKey(Repository_Source, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.sentence
 
 class Inverted_Word(models.Model):
     word = models.CharField(max_length=100)
     position = models.IntegerField(default=0)
     sentence = models.ForeignKey(Inverted_Sentence, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.word
 
