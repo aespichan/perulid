@@ -8,6 +8,7 @@ _phonetic_characters = [u'ŋ',u'ş',u'ø',u'ç']
 _punctuation = ['.',':',',',';','¿','?','¡','!']
 
 _regexs = [r'\(*([\d]* *[\w]+\.* [\d]+\.[\d]+-*[\d]*;* *)+\)*', # (Mr. 1.22; Lc. 6.47-49)
+      r'\(\d+,\d+\w*\)', # (11,17b)
       r'[\w]+(-[\dA-Z]+\.*[\w]*)+', # say-1.OBJ-3 Tana-PL-TOP
       r'[\w]+-[\w]+(-[\w]+)+', # kida-ku-shun qalqaliya-m shamu-ya-n Chukllaklla-paq Hongos-paq
       r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$', # aeslinares@gmail.com
@@ -123,16 +124,13 @@ def isNative(sentence):
     
   return ans
 
-
 def isValidSentence(sentence):
   return len(sentence.split()) > 1 and isNative(sentence)
-
 
 def remove_punctuation(text):
   for p in _punctuation:
     text = text.replace(p,"")
   return text.strip()
-
 
 def remove_not_native(line):
   sentences = line.split('.')
@@ -146,28 +144,40 @@ def remove_not_native(line):
         clean_line += "."
   return clean_line
 
+
 def split_text(text):
   s_period = text.split(".")
 
   sentences = []
+  sentence = ""
+
   for s in s_period:
-    if (s.strip()!=""):
-      s_colon = (s+".").split(":")
-      for sentence in s_colon:
-        if (sentence!=""):
-          sentences.append(sentence.strip())
+    s = s.strip()
+    if (s != ""):
+      if (sentence != ""):
+        sentences.append(sentence + ".")
+      sentence = s
+    else:
+      if (sentence != ""):
+        sentence += "."
+
+  if (sentence != ""):
+    sentences.append(sentence)
 
   return sentences
 
-
 def clean_text(text):
   text = clean_line(text.lower())
-  sentences = text.replace(":",". ").split(".")
+  sentences = split_text(text)
 
   clean = []
   for sentence in sentences:
-    clean_sentence = remove_punctuation(sentence).strip()
+    clean_sentence = remove_punctuation(sentence)
     if (clean_sentence!=""):
       clean.append(clean_sentence)
 
   return clean
+
+
+def clean_sentences(sentences):
+  return list(map(lambda x: remove_punctuation(clean_line(x.lower())), sentences))

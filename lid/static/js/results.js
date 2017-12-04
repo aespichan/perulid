@@ -54,16 +54,17 @@ var Information = function (_React$Component) {
           'li',
           { key: index },
           value[0],
-          ': ',
+          ' (',
           value[1],
+          '): ',
+          value[2],
           '%'
         );
       });
 
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
+      var sentence = "";
+      if (per_sentence) {
+        sentence = _react2.default.createElement(
           'p',
           null,
           _react2.default.createElement(
@@ -71,7 +72,13 @@ var Information = function (_React$Component) {
             null,
             sentences_list[this.props.index]
           )
-        ),
+        );
+      }
+
+      return _react2.default.createElement(
+        'div',
+        null,
+        sentence,
         _react2.default.createElement(
           'p',
           null,
@@ -122,14 +129,22 @@ var Results = function (_React$Component2) {
       var _this3 = this;
 
       var sentences = sentences_list.map(function (value, index) {
-        return _react2.default.createElement(
-          'a',
-          { key: index, href: '#', className: 'in-sentence', onClick: function onClick() {
-              return _this3.information(index);
-            } },
-          value,
-          ' '
-        );
+        if (per_sentence) {
+          return _react2.default.createElement(
+            'a',
+            { key: index, href: '#', className: 'in-sentence', onClick: function onClick() {
+                return _this3.information(index);
+              } },
+            value,
+            ' '
+          );
+        } else {
+          return _react2.default.createElement(
+            'span',
+            { key: index },
+            value
+          );
+        }
       });
 
       var current_index = this.state.index;
@@ -170,8 +185,8 @@ function renderChart(index) {
 
   var info = proba[index];
   for (var i = 0; i < info.length; i++) {
-    labels.push(info[i][0]);
-    probabilities.push(info[i][1]);
+    labels.push(info[i][1]);
+    probabilities.push(info[i][2]);
   }
 
   var data = {

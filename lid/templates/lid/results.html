@@ -17,7 +17,14 @@
 
   <!-- Main Content -->
   <div class="container">
-    <div id="results"></div>
+    {% if success %}
+      <div id="results"></div>
+    {% else %}
+      <div id="error" class="text-center">
+        <p>{{ message }}</p>
+        <p>{{ text }}</p>
+      </div>
+    {% endif %}
   </div>
 
   <hr>
@@ -25,10 +32,13 @@
 {% endblock %}
 
 {% block scripts %}
+{% if success %}
 <script>
+  per_sentence = {{per_sentence|safe}};
   sentences_list = {{sentences|safe}};
   pred = {{pred|safe}};
   proba = {{proba|safe}};
 </script>
 <script src="{% static 'js/results.js' %}"></script>
+{% endif %}
 {% endblock %}

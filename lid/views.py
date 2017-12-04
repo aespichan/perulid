@@ -1,6 +1,6 @@
 from django.shortcuts import render, render_to_response
 from django.conf import settings
-from .utils.classifier import deserialize
+from .utils.classifier import load
 from .utils.clean import split_text, clean_line
 from .utils.results import top_percentage, iso_to_name
 
@@ -18,22 +18,39 @@ def index(request):
     return render(request, 'lid/index.html', context)
 
 def results(request):
-    print(request.POST)
-    classifier = deserialize(path.join(settings.CLASSIFIER_DIR,'classifier.pkl'))
-    pred, proba = classifier.predict_proba(request.POST['text'])
+    classifier = load(path.join(settings.CLASSIFIER_DIR,'classifier.pkl'))
+    text = clean_line(request.POST['text'])
+
+    if 'option' in request.POST and 'persentence' in request.POST['option']:
+        sentences = split_text(text)
+        per_sentence = True
+    else:
+        sentences = [text]
+        per_sentence = False
+
+    if (len(sentences) < 1):
+        context = {
+            'success' : False,
+            'message' : 'No se han encontrado oraciones para identificar el lenguaje. Texto ingresado:',
+            'text' : request.POST['text']
+        }
+        return render_to_response('lid/results.html', context)
+
+    pred, proba = classifier.predict_proba(sentences)
     top = top_percentage(proba, 5)
     prediction = iso_to_name(pred)
-    text = clean_line(request.POST['text'])
-    sentences = split_text(text)
 
     pred = json.dumps(list(prediction), cls=DjangoJSONEncoder)
     top = json.dumps(list(top), cls=DjangoJSONEncoder)
     sentences = json.dumps(list(sentences), cls=DjangoJSONEncoder)
+    per_sentence = json.dumps(per_sentence)
 
     context = {
+        'success' : True,
         'pred' : pred,
         'proba' : top,
         'sentences' : sentences,
+        'per_sentence' : per_sentence,
     }
 
     return render_to_response('lid/results.html', context)

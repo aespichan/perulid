@@ -1,30 +1,42 @@
-from .clean import clean_text
+from .clean import clean_text, clean_sentences
 from langdetect import detect
 import pickle
+from sklearn.calibration import CalibratedClassifierCV
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 from ..models import Language
 
 class Classifier:
 
-    def __init__(self, model, tf, threshold = 0.7):
-        self.model = model
-        self.tf = tf
+    def __init__(self, method, ngram_range = (2,4), max_features = 1000, threshold = 0.7):
+        self.method = method
         self.threshold = threshold
+        self.ngram_range = ngram_range
+        self.max_features = max_features
+
+    def fit(self, X, y):
+        self.tf = TfidfVectorizer(analyzer = "char", ngram_range = self.ngram_range, 
+            use_idf = True, max_features = self.max_features)
+        X_tf = self.tf.fit_transform(X)
+        print("Characterization done.")
+        clf = CalibratedClassifierCV(self.method, method='sigmoid', cv=4)
+        self.model = clf.fit(X_tf, y)
         self.labels = list(Language.objects.exclude(family_id=-1).order_by('iso_code').values_list('iso_code', flat=True))
+        print("Fit done.")
 
-    def characterize(self,text):
-        if type(text) is not str:
-            return self.tf.transform(text)
+    def characterize(self, X):
+        if type(X) is not str:
+            test = clean_sentences(X)
         else:
-            test = clean_text(text)
-            return self.tf.transform(test)
+            test = clean_text(X)
+        return self.tf.transform(test)
 
-    def predict(self, text):
-        test_tf = self.characterize(text)
+    def predict(self, X):
+        test_tf = self.characterize(X)
         return self.model.predict(test_tf)
 
-    def probabilities(self, text):
-        test_tf = self.characterize(text)
+    def probabilities(self, X):
+        test_tf = self.characterize(X)
         return self.model.predict_proba(test_tf)
 
     '''
@@ -44,10 +56,12 @@ class Classifier:
     sorted_proba: arreglo de índices de las probabilidades en orden 
         descendente por cada oración.
     '''
-    def predict_proba(self, text):
-        assert type(text) is str
+    def predict_proba(self, X):
+        if type(X) is not str:
+            test = clean_sentences(X)
+        else:
+            test = clean_text(X)
 
-        test = clean_text(text)
         test_tf = self.tf.transform(test)
 
         probabilities = self.model.predict_proba(test_tf)
@@ -68,12 +82,12 @@ class Classifier:
 
         return predictions, probas
 
-def serialize(clf, filename):
-    output = open(filename, 'wb')
-    pickle.dump(clf, output)
-    output.close()
+    def save(self, filename):
+        output = open(filename, 'wb')
+        pickle.dump(self, output)
+        output.close()
 
-def deserialize(filename):
+def load(filename):
     pkl_file = open(filename, 'rb')
     clf = pickle.load(pkl_file)
     pkl_file.close()

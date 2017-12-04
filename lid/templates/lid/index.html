@@ -25,14 +25,9 @@
           {% csrf_token %}
           <div class="row">
             <div class="col-lg-8 col-md-12">
-              <textarea id="langidtext" name="text" rows="4" cols="50" placeholder="Ingrese su texto aquí"></textarea>
+              <textarea id="langidtext" name="text" rows="4" cols="50" placeholder="Ingrese su texto aquí" required></textarea>
             </div>
             <div class="col-lg-4 col-md-12">
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" name="option" value="probabilities" checked=""> Mostrar probabilidades
-                </label>
-              </div>
               <div class="checkbox">
                 <label>
                   <input type="checkbox" name="option" value="persentence" checked=""> Oración por oración

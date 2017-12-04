@@ -22,8 +22,8 @@ def top_percentage(probabilities, k):
             iso = sample[i][0]
             proba = round(sample[i][1]*100,3)
             remaining_proba -= proba
-            sample_top.append((_language_dict[iso],proba))
-        sample_top.append(("Otros",round(remaining_proba,3)))
+            sample_top.append((_language_dict[iso], iso, proba))
+        sample_top.append(("Otros","Otros", round(remaining_proba,3)))
         top.append(sample_top)
 
     return top
@@ -32,7 +32,7 @@ def iso_to_name(iso_list):
     language_list = []
     for iso in iso_list:
         if iso in _language_dict:
-            language_list.append(_language_dict[iso])
+            language_list.append(_language_dict[iso]+ " (" + iso + ")")
         else:
             language_list.append(iso)
 

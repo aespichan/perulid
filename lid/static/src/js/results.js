@@ -18,13 +18,18 @@ class Information extends React.Component {
   render() {
     const probabilities = proba[this.props.index].map((value, index) => {
       return (
-        <li key={index}>{value[0]}: {value[1]}%</li>
+        <li key={index}>{value[0]} ({value[1]}): {value[2]}%</li>
       );
     });
 
+    var sentence = ""
+    if (per_sentence){
+      sentence = (<p><b>{sentences_list[this.props.index]}</b></p>)
+    }
+
     return (
       <div>
-        <p><b>{sentences_list[this.props.index]}</b></p>
+        {sentence}
         <p>Parece ser: {pred[this.props.index]}</p>
         <ul>
           {probabilities}
@@ -54,10 +59,18 @@ class Results extends React.Component {
   render() {
 
     const sentences = sentences_list.map((value, index) => {
-      return (
-        <a key={index} href="#" className="in-sentence" onClick={() => this.information(index)}>{value} </a>
-      );
+      if (per_sentence){
+        return (
+          <a key={index} href="#" className="in-sentence" onClick={() => this.information(index)}>{value} </a>
+        );
+      } else {
+        return (
+          <span key={index}>{value}</span>
+        );
+      }
+      
     });
+    
 
     const current_index = this.state.index;
 
@@ -86,8 +99,8 @@ function renderChart(index) {
 
   var info = proba[index]
   for (var i = 0; i < info.length; i++) { 
-    labels.push(info[i][0])
-    probabilities.push(info[i][1])
+    labels.push(info[i][1])
+    probabilities.push(info[i][2])
   }
 
   var data = {
