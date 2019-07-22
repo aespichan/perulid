@@ -17,6 +17,14 @@ def index(request):
     context = {}
     return render(request, 'lid/index.html', context)
 
+def about(request):
+    context = {}
+    return render(request, 'lid/about.html', context)
+
+def contact(request):
+    context = {}
+    return render(request, 'lid/about.html', context)
+
 def results(request):
     classifier = load(path.join(settings.CLASSIFIER_DIR,'classifier.pkl'))
     text = clean_line(request.POST['text'])

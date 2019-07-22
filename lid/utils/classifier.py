@@ -4,8 +4,6 @@ import pickle
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-from ..models import Language
-
 class Classifier:
 
     def __init__(self, method, ngram_range = (2,4), max_features = 1000, threshold = 0.7):
@@ -21,7 +19,6 @@ class Classifier:
         print("Characterization done.")
         clf = CalibratedClassifierCV(self.method, method='sigmoid', cv=4)
         self.model = clf.fit(X_tf, y)
-        self.labels = list(Language.objects.exclude(family_id=-1).order_by('iso_code').values_list('iso_code', flat=True))
         print("Fit done.")
 
     def characterize(self, X):
@@ -51,10 +48,8 @@ class Classifier:
 
     Outputs
     -------
-    pred: la lengua predecida de cada oración del texto
-    probabilities: las probabilidades por cada lengua por cada oración
-    sorted_proba: arreglo de índices de las probabilidades en orden 
-        descendente por cada oración.
+    predicition: la lengua predecida de cada oración del texto (puede ser español e ingles)
+    probas: arreglo de tuplas (iso, probabilidad) ordenado por probabilidad para cada oración.
     '''
     def predict_proba(self, X):
         if type(X) is not str:

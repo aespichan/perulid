@@ -78,14 +78,13 @@ var Information = function (_React$Component) {
 
         var curr_sentences = this.props.sentences.slice(start, end);
         var stcs = curr_sentences.map(function (value, index) {
+          var str = value.sentence.trim().split(" ");
+          str[value.position] = "<b>" + str[value.position] + "</b>";
+          str = str.join(" ");
           return _react2.default.createElement(
             'li',
-            { key: index },
-            _react2.default.createElement(
-              'p',
-              { className: 'search-sentence' },
-              value.sentence
-            ),
+            { className: 'search-list-item', key: index },
+            _react2.default.createElement('p', { className: 'search-sentence', dangerouslySetInnerHTML: { __html: str } }),
             _react2.default.createElement(
               'p',
               { className: 'search-sentence' },
@@ -93,10 +92,14 @@ var Information = function (_React$Component) {
               value.language
             ),
             _react2.default.createElement(
-              'a',
-              { href: value.url },
+              'p',
+              { className: 'search-sentence' },
               'Fuente: ',
-              value.url
+              _react2.default.createElement(
+                'a',
+                { href: value.url, target: '_blank' },
+                value.url
+              )
             )
           );
         });
@@ -118,6 +121,20 @@ var Information = function (_React$Component) {
             'ul',
             { className: 'search-results' },
             stcs
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'pull-left' },
+            _react2.default.createElement(
+              'p',
+              null,
+              'Resultados: ',
+              start + 1,
+              ' a ',
+              end,
+              ' de ',
+              this.props.sentences.length
+            )
           ),
           _react2.default.createElement(
             'div',
@@ -170,7 +187,7 @@ var Searcher = function (_React$Component2) {
     value: function information() {
       var _this4 = this;
 
-      var search_input = $("#search_input").val();
+      var search_input = $("#search_input").val().toLowerCase();
 
       $.ajax({
         url: "/ajax/search_sentences/",

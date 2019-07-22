@@ -28,6 +28,9 @@ button.disabled {
   background-color: #0085A1 !important;
   border-color: #0085A1 !important; }
 
+.search-list-item {
+  margin: 10px 0px; }
+
 header.resultHeader {
   margin-bottom: 50px;
   background: no-repeat center center;
@@ -49,4 +52,4 @@ header.resultHeader {
       header.resultHeader .site-heading {
         padding: 35px 0; } }
 
-/*# sourceMappingURL=../../../../../../../../../static/css/custom.css.map */
+/*# sourceMappingURL=custom.css.map */

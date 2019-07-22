@@ -1,0 +1,9 @@
+django
+gunicorn
+django-heroku
+libsass
+hunspell
+django-compressor
+django-sass-processor
+langdetect
+scikit-learn

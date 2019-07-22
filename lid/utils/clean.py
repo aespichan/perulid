@@ -1,8 +1,5 @@
-import enchant
+import hunspell
 import re
-
-_d_es = enchant.Dict("es")
-_d_en = enchant.Dict("en")
 
 _phonetic_characters = [u'ŋ',u'ş',u'ø',u'ç']
 _punctuation = ['.',':',',',';','¿','?','¡','!']
@@ -41,16 +38,20 @@ _replace_chars = {
 }
 
 def inDictionary(sentence):
+
+  _d_en = hunspell.HunSpell('./spelling/en_US.dic', './spelling/en_US.aff')
+  _d_es = hunspell.HunSpell('./spelling/es.dic', './spelling/es.aff')
+
   words = sentence.split()
   adj_es = 0
   adj_en = 0
   for word in words:
-    if _d_es.check(word):
+    if _d_es.spell(word):
       adj_es += 1
     else:
       adj_es = 0
       
-    if _d_en.check(word):
+    if _d_en.spell(word):
       adj_en += 1
     else:
       adj_en = 0
@@ -62,7 +63,7 @@ def inDictionary(sentence):
 
 
 def clean_line(line):
-  p1 = re.compile('\w+-\w+\.*\w*(-\w+\.*\w*)+') # say-1.OBJ-3 Tana-PL-TOP
+  p1 = re.compile(r'\w+-\w+\.*\w*(-\w+\.*\w*)+') # say-1.OBJ-3 Tana-PL-TOP
   if p1.search(line):
     return ""
   
@@ -78,7 +79,7 @@ def clean_line(line):
   for i in _ignored_chars:
     line = line.replace(i,"")
     
-  line = re.sub("'\.", ". ", line) # '.
+  line = re.sub(r"'\.", ". ", line) # '.
   line = line.replace(".",". ")
   line = line.replace(",",", ")
   line = line.replace(";","; ")

@@ -169,9 +169,13 @@ def load_directory(language):
 
 def load_repository():
   languages = Language.objects.all()
+  amount_sentences_total = 0
   
   for language in languages:
     print(language.language_name)
+    # Para cada lengua, eliminar los registros que habian antes
+    # (oraciones, palabras, caracteres, etc)
+    # y volver a cargarlos con lo que haya en repositorio    
     # Clean document (delete spanish, english, some symbols, ...)
     result = load_directory(language)
     Repository_Detail.objects.filter(language__iso_code=language.iso_code).delete()
@@ -183,6 +187,12 @@ def load_repository():
 
     Repository_Detail(language=language, words=amount_words, sentences=amount_sentences, 
       characters=amount_characters, tokens=amount_tokens, files=amount_files).save()
+
+    amount_sentences_total += amount_sentences
+
+  return amount_sentences
+
+
 
 
 

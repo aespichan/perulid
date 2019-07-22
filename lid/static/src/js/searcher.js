@@ -44,11 +44,14 @@ class Information extends React.Component {
 
       var curr_sentences = this.props.sentences.slice(start, end);
       const stcs = curr_sentences.map((value, index) => {
+        var str = value.sentence.trim().split(" ");
+        str[value.position] = "<b>"+str[value.position]+"</b>";
+        str = str.join(" ")
         return (
-          <li key={index}>
-            <p className="search-sentence">{value.sentence}</p>
+          <li className="search-list-item" key={index}>
+            <p className="search-sentence" dangerouslySetInnerHTML={{ __html: str }}></p>
             <p className="search-sentence">Lengua: {value.language}</p>
-            <a href={value.url}>Fuente: {value.url}</a>
+            <p className="search-sentence">Fuente: <a href={value.url} target="_blank">{value.url}</a></p>
           </li>
         );
       });
@@ -66,6 +69,9 @@ class Information extends React.Component {
       results = (
         <div>
           <ul className="search-results">{stcs}</ul>
+          <div className="pull-left">
+            <p>Resultados: {start+1} a {end} de {this.props.sentences.length}</p>
+          </div>
           <div className="pull-right">
             <button className={'btn btn-xs btn-primary ' + prev_disabled} type="button" onClick={() => this.previous()}>
               Anterior
@@ -96,7 +102,7 @@ class Searcher extends React.Component {
   }
 
   information() {
-    var search_input = $("#search_input").val();
+    var search_input = $("#search_input").val().toLowerCase();
 
     $.ajax({
       url : "/ajax/search_sentences/",

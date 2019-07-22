@@ -1,3 +1,0 @@
-pip install libsass django-compressor django-sass-processor
-npm install gulp-cli -g
-npm install gulp -D

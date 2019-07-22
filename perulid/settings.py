@@ -27,7 +27,7 @@ SECRET_KEY = 'ug1k8-xye^tb2r_vk2gz)k+zwsr56zcb5$tf^xm!zh=wb@_&l$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -51,6 +51,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # the next line of code is the one that solved my problems
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'perulid.urls'
@@ -121,10 +123,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_URL = '/static/'
-
 STATIC_ROOT = 'static'
 STATIC_URL = '/static/'
+
 MEDIA_ROOT = 'media'
 MEDIA_URL = '/media/'
 
@@ -132,8 +133,9 @@ SASS_PROCESSOR_ENABLED = True
 
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
-    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    #'django.contrib.staticfiles.finders.AppDirectoriesFinder',
     'sass_processor.finders.CssFinder'
 ]
 
-SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR,'lid','static')
+SASS_ROOT = os.path.abspath(os.path.join(BASE_DIR, 'lid', 'static'))
+SASS_PROCESSOR_ROOT = os.path.abspath(os.path.join(BASE_DIR, 'lid', 'static'))
